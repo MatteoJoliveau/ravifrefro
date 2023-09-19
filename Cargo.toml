@@ -1,0 +1,12 @@
+[package]
+name = "ravifrepro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = { version = "0.24.7", default-features = false, features = [
+    "gif",
+    "jpeg",
+    "png",
+    "avif",
+] }
